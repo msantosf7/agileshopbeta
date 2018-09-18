@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.msantos.cursomc</groupId>
-	<artifactId>cursomc</artifactId>
+	<groupId>com.msantos.agileshop</groupId>
+	<artifactId>agileshop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>cursomc</name>
+	<name>agileshop</name>
 	<description>Estudo de caso Java para curso de Modelagem Conceitual com UML</description>
 
 	<parent>
