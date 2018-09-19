@@ -1,10 +1,6 @@
 package com.msantos.agileshop.resources;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,9 +20,10 @@ public class CategoriaResource {
 	@RequestMapping(value="/{id}", method = RequestMethod.GET)
 	public ResponseEntity<?> find(@PathVariable Integer id) {
 		
-		Categoria obj = service.buscar(id);
+		Categoria obj = service.find(id);
 		
 		return ResponseEntity.ok().body(obj);
 	}
 	
 }
+	
