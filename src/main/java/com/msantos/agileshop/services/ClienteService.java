@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.msantos.agileshop.domain.Cliente;
-import com.msantos.agileshop.exceptions.ObjectNotFoundException;
 import com.msantos.agileshop.repositories.ClienteRepository;
+import com.msantos.agileshop.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class ClienteService {
